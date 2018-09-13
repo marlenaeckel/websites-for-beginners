@@ -1,0 +1,260 @@
+.body {
+    margin: 0 auto;
+    font-family: 'Chango', cursive;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.nav-bar {
+    background-color: #cf92e8;
+    background-image: linear-gradient(20deg, #8febdb, #eba18f);
+    height: 60px;
+    width: 100%;
+    position: fixed;
+    margin-top: 0;
+    z-index: 2;
+}
+
+.nav-list {
+    margin: 0 auto;
+    float: right;
+    margin-top: 10px;
+    margin-right: 25px;
+    
+}
+
+.logo {
+    height: 50px;
+    width: 100px;
+    margin-top: 5px;
+}
+
+.list-item {
+    display: inline;
+    padding-right: 25px;
+    font-family: 'Chango', cursive;
+}
+
+.list-item a {
+    text-decoration: none;
+    color: #088da5;
+    font-weight: bold;
+}
+
+.list-item a:hover {
+    color: #40e0d0;
+    text-shadow: 1px 1px 1px #fff;
+    font-family: 'Chango', cursive;
+    
+}
+
+.banner {
+    background-image: url('../images/park.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    width: 100%;
+    font-family: 'Chango', cursive;
+    /*position: relative;*/
+}
+
+.banner-text-background {
+    height: 200px;
+    width: 200px;
+    background-color: #c764b2;
+    position: absolute;
+    top: 100px;
+    left: 39%;
+    text-align: center;
+    border-radius: 15px 30px;
+    text-shadow: 4px 4px 6px #b1c764;
+}
+
+.text {
+    margin-bottom: 15px;
+}
+
+.container {
+    height: 500px;
+    width: 100%;
+    margin-top: 25px;
+    position: relative;
+    overflow: hidden;
+}
+
+.column-one {
+    width: 48%;
+    border: 3px solid #cf92e8;
+    /*float: left;*/
+    margin-left: 10px;
+    position: absolute;
+    border-radius: 10px;
+}
+
+
+
+.image {
+    height: 400px;
+    margin-left: 130px;
+}
+
+.column-two {
+    width: 48%;
+    border: 3px solid #cf92e8;
+    /*float: left;*/
+    position: absolute;
+    left: 50%;
+    margin-left: 10px;
+    border-radius: 10px;
+}
+
+
+.col-text {
+    padding: 15px;
+    font-family: 'Josefin Sans', sans-serif;
+    
+}
+
+
+
+
+
+
+/***************************ABOUT STYLES*****************************/
+
+.about-container {
+    height: 700px;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    margin: auto;
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: center;
+    /*font-weight: 700;*/
+    /*font-size: 35px;*/
+}
+
+.about-col {
+    width: 100%;
+    margin: 90px;
+    
+}
+.about-image {
+    height: 500px;
+    width: 30%;
+    border: 4px solid #8febdb;
+    border-radius: 10px;
+    position: absolute;
+    left: 0;
+    margin-left: auto;
+}
+
+.performance {
+    margin-top: 15px;
+    font-weight: 700;
+    font-size: 35px;
+}
+
+.swimsuit-image {
+    height: 350px;
+    text-align: center;
+    display: block;
+    margin: auto;
+    /*margin-top: 30px;*/
+}
+
+
+.about-video {
+    height: 450px;
+    width: 30%;
+    border: 4px solid #c1c1b3;
+    border-radius: 10px;
+    position: absolute;
+    left: 34%;
+    margin-left: auto;
+}
+
+.about-sound {
+    height: 400px;
+    width: 30%;
+    border: 4px solid #e6a597;
+    border-radius: 10px;
+    position: absolute;
+    margin-left: auto;
+    left: 68%;
+}
+
+.sound, .video {
+    font-weight: 700;
+    font-size: 35px;
+}
+
+audio {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+
+
+/****************************CONTACT STYLES***********************/
+
+.map {
+    overflow: hidden;
+    text-align: center;
+}
+
+.map-border {
+    border: 6px solid #8febdb; 
+    border-radius: 10px;
+    height: 450px;
+    width: 600px;
+    text-align: center;
+    display: inline-block;
+    margin-bottom: 15px;
+}
+
+.contact-form {
+    width: 600px;
+    height: 450px;
+    border: 6px solid #8febdb;
+    border-radius: 10px;
+    margin: 0 auto;
+}
+
+.map-heading {
+    margin-top: 90px;
+    font-family: 'Chango', cursive;
+    font-size: 35px;
+}
+
+/************************************FOOTER********************************/
+
+.footer {
+    background-image: linear-gradient(20deg, #eba18f, #8febdb);
+    height: 100px;
+    width: 100%;
+    margin-top: 15px;
+}
+
+.footer-col {
+    height: 35px;
+    width: 33%;
+    display: inline-block;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.fa-facebook {
+    color: #3b5a95;
+}
+
+.fa-twitter-square {
+    margin-left: 15px;
+    color: #00a2ed;
+}
+
+.copyright {
+    font-weight: 700;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+
